@@ -28,13 +28,44 @@ a:active {
   color: #ba7d0b;
 }
 
+/* ------------------------------------------- */
+/* HEADER */
+
+.site-header {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: #00000050;
+}
+
+.site-nav ul {
+  list-style: none;
+  padding: 0;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  gap: 1.2rem;
+  font-size: 0.8rem;
+}
+
+@media (min-width: 75em) {
+  .site-nav ul {
+    gap: 2.5rem;
+    font-size: 1rem;
+  }
+}
+
 /* -------------------------------------------- */
 /* FOOTER */
 
 .site-footer {
   background-color: #ffffff;
-  margin: 0;
-  padding: 0;
   text-align: center;
   z-index: 100;
 }
