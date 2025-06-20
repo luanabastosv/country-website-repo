@@ -50,8 +50,8 @@
 table {
   position: absolute;
   top: 70%;
-  left: 50%;
-  transform: translateX(-50%);
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
   color: #ffffff;
   border: solid;
   border-width: 0.5px;
@@ -96,7 +96,8 @@ table td:first-of-type {
   }
   table {
     top: 80%;
-    left: 75%;
+    left: 65%;
+    margin-right: 5rem;
   }
 }
 
