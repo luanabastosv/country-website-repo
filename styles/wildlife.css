@@ -1,7 +1,7 @@
 .site-wrapper {
   max-width: 120rem;
   margin: 0 auto;
-  background-image: url('/medias/background-wildlife-1.jpg');
+  background-image: url('../medias/background-wildlife-1.jpg');
   background-position: top;
 }
 
