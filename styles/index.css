@@ -3,7 +3,6 @@
   margin: 0 auto;
 }
 
-
 /* ------------------------------------------- */
 /* MAIN */
 
@@ -25,10 +24,10 @@
 
 .main-header h1 {
   position: absolute;
-  text-align: center;
   top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 10;
-  width: 100vw;
   color: #ffffff;
   text-transform: uppercase;
   font-size: 3rem;
@@ -37,11 +36,22 @@
 }
 
 .favicon {
-  width: 4rem;
+  width: 3rem;
   position: absolute;
-  top: 53%;
+  top: 100%;
   left: 50%;
   transform: translateX(-50%);
+}
+
+.last-letter {
+  letter-spacing: 0;
+}
+/* I've did this class to take off the letter-spacing from the end of the word, don't know if it's the right way doing, but coundn't find another solution. */
+
+@media (min-width: 75em) {
+  .favicon {
+    width: 4rem;
+  }
 }
 
 /* MAIN SEC ABOUT */
@@ -168,8 +178,8 @@ blockquote {
 }
 
 .main-footer p:hover {
-    color: #ba7d0b;
-  }
+  color: #ba7d0b;
+}
 
 .main-footer img {
   position: relative;
@@ -198,6 +208,3 @@ blockquote {
     padding-bottom: 6rem;
   }
 }
-
-
-

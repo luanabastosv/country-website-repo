@@ -34,15 +34,15 @@
 }
 .white-box {
   position: absolute;
-  text-align: center;
-  align-content: center;
+  top: 120%;
   left: 50%;
   transform: translateX(-50%);
-  top: 55%;
-  z-index: 10;
   width: 3rem;
   height: 3rem;
   background-color: #ffffff;
+}
+.last-letter {
+  letter-spacing: 0;
 }
 .header-images {
   display: grid;
@@ -67,9 +67,8 @@
     left: 0;
   }
   .white-box {
-    margin-left: 10rem;
     font-size: 3rem;
-    top: 83%;
+    top: 100%;
     left: 0;
     transform: none;
   }
@@ -79,7 +78,7 @@
 
 .main-content {
   display: block;
-  background-image: url("/medias/background.png");
+  background-image: url('/medias/background.png');
   background-position: initial;
 }
 

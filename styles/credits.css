@@ -37,12 +37,9 @@
 }
 .white-box {
   position: absolute;
-  text-align: center;
-  align-content: center;
+  top: 120%;
   left: 50%;
   transform: translateX(-50%);
-  top: 55%;
-  z-index: 10;
   width: 3rem;
   height: 3rem;
   background-color: #ffffff;
@@ -57,9 +54,8 @@
     left: 0;
   }
   .white-box {
-    margin-left: 10rem;
     font-size: 3rem;
-    top: 83%;
+    top: 100%;
     left: 0;
     transform: none;
   }
